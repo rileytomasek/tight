@@ -1,0 +1,233 @@
+/* No need to show your own username and online status. */
+#team_menu_user {
+  display: none !important;
+}
+
+/* Hide dnd menu. This should be set automatically */
+.notifications_menu_btn_react {
+  display: none !important;
+}
+
+/* Make team menu styles match rest of sidebar */
+#team_menu #team_name {
+  font-size: 16px !important;
+  color: rgb(114, 119, 123) !important;
+}
+
+/* Fix alignment with channel name in right pane */
+/* Slack is so bad they have imporant on their own selectors... */
+.client_container #team_menu .team_name_container {
+  margin-top: 23px !important;
+}
+
+/* All threads */
+.p-channel_sidebar__link--all-threads {
+  display: none !important;
+}
+
+/* Useless headers */
+.p-channel_sidebar__section_heading {
+  display: none !important;
+}
+
+/* Force sidebar color, regardless of theme color */
+.client_channels_list_container,
+.p-channel_sidebar {
+  background: #f8f8fa !important;
+  color: rgb(114, 119, 123) !important;
+}
+
+/* Single channel hover effect */
+.p-channel_sidebar__channel:hover,
+.p-channel_sidebar__link:hover,
+.p-channel_sidebar__close_container:hover {
+  background: #fff !important;
+}
+
+/* Channel name text color */
+.p-channel_sidebar__channel,
+.p-channel_sidebar__link,
+.p-channel_sidebar__channel:link,
+.p-channel_sidebar__link:link,
+.p-channel_sidebar__channel:visited,
+.p-channel_sidebar__link:visited,
+.p-channel_sidebar__channel:hover,
+.p-channel_sidebar__link:hover {
+  color: rgb(114, 119, 123) !important;
+}
+
+/* Team menu */
+#team_menu {
+  border-bottom: none !important;
+}
+body:not(.loading) #team_menu.active,
+body:not(.loading) #team_menu:hover {
+  background: #f8f8fa !important;
+  border-bottom-color: #f8f8fa !important;
+}
+
+/* Selected channel state */
+.p-channel_sidebar__channel--selected {
+  background-color: transparent !important;
+  color: inherit !important;
+  font-weight: bold !important;
+}
+.p-channel_sidebar__close_container .c-icon--presence-online,
+.p-channel_sidebar__close_container .c-icon--presence-external-online {
+  color: #60d156 !important;
+}
+
+/* Channel text color */
+.p-channel_sidebar__channel--selected:before,
+.p-channel_sidebar__close_container .c-icon--presence-offline,
+.p-channel_sidebar__close_container .c-icon--presence-dnd-offline,
+.p-channel_sidebar__close_container .c-icon--presence-external-offline,
+.p-channel_sidebar__channel--unread:not(.p-channel_sidebar__channel--muted):not(.p-channel_sidebar__channel--selected)
+  .p-channel_sidebar__name,
+.p-channel_sidebar__link--unread:not(.p-channel_sidebar__link--selected)
+  .p-channel_sidebar__name,
+.p-channel_sidebar__link--invites:not(.p-channel_sidebar__link--dim)
+  .p-channel_sidebar__name,
+.p-channel_sidebar__section_heading_label--clickable:hover,
+.p-channel_sidebar__section_heading_label--unreads,
+.p-channel_sidebar__quickswitcher:hover {
+  color: rgb(114, 119, 123) !important;
+}
+
+/* Message composition box */
+.msg_mentions_button {
+  display: none !important;
+}
+#main_emo_menu {
+  display: none !important;
+}
+#primary_file_button {
+  display: none !important;
+}
+
+/* Top bar */
+.channel_title_info,
+#recent_mentions_toggle,
+#stars_toggle,
+#flex_menu_toggle,
+#channel_header_info {
+  display: none !important;
+}
+.channel_title {
+  display: flex;
+  align-items: center;
+}
+
+/* Search box */
+.flex_header {
+  width: 46px !important;
+  border: none !important;
+}
+#header_search_form {
+  border: none !important;
+}
+.flex_header .ts_icon_search_medium {
+  color: #717274 !important;
+}
+.ql-placeholder {
+  color: #e8e8e8 !important;
+  opacity: 1 !important;
+}
+.search_clear_icon_wrapper {
+  display: none;
+}
+
+/* Message thread */
+.c-message_list__day_divider__label__pill {
+  color: #e8e8e8 !important;
+  font-size: 12px !important;
+  text-transform: lowercase;
+}
+.c-timestamp__label {
+  color: #717274 !important;
+}
+.c-message__body {
+  font-family: inconsolata, monaco !important;
+  font-size: 13px;
+}
+.c-virtual_list__scroll_container .c-message__body {
+  padding-bottom: 10px;
+}
+
+/* Remove always broken new messages indicator */
+.c-message_list__unread_divider,
+.c-message_list__unread_divider--ghost {
+  display: none;
+}
+
+body {
+  min-width: 1200px;
+}
+
+/* Make the main container thinner and centered */
+.client_container {
+  max-width: 1000px;
+  margin: 0 auto;
+  transform: translateX(-110px);
+}
+.client_main_container {
+  width: 800px;
+}
+body {
+  background: #f8f8fa !important;
+}
+#col_messages,
+#footer,
+.channel_header,
+#client_body,
+#client_body:not(.onboarding):before {
+  box-shadow: none !important;
+}
+
+.p-notification_bar__formatting {
+  display: none !important;
+}
+
+#msg_input {
+  border: none !important;
+}
+#notification_bar {
+  display: none !important;
+}
+#footer {
+  padding: 10px 0 !important;
+  border-top: 1px solid #e8e8e8 !important;
+  background-color: #fff !important;
+}
+
+/* Remove janky loading screens/elements */
+body.loading #loading-zone,
+body.loading #client-ui {
+  display: none;
+}
+/* Add a simple loading indicator */
+body.loading::before {
+  content: "Loading...";
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 18px;
+}
+/* Remove hard coded style="height: Npx" from sidebar items
+ * Not sure what these were doing because removing them doesn't seem to do
+ * anything to the visisble items and removes the height from all of the rows
+ * that had their content hidden by slackless.
+*/
+.p-channel_sidebar__static_list > div {
+  height: auto !important;
+}
+/* The presentation divs are used for spacing between sidebar groups */
+.p-channel_sidebar__static_list > div[role="presentation"] {
+  height: 50px !important;
+}
+/* We have 2 presentation in a row to start because the whole threads section
+ * is hidden, so we need to hide one to avoid double spacing. */
+.p-channel_sidebar__static_list > div[role="presentation"]:first-child {
+  height: 0 !important;
+}
