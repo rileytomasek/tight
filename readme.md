@@ -18,6 +18,8 @@ The second goal is that Slack will notice and implement some of these much
 needed improvements to their product. If you like any of these changes,
 please let Slack know!
 
+Read the [blog post](https://rile.yt/tight-making-slack-usable) or discuss on [Hacker News](https://news.ycombinator.com/item?id=17877737) / [Product Hunt](https://www.producthunt.com/posts/tight)
+
 ![Tight Comparison](assets/comparison.jpg)
 
 ## Setup
