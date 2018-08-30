@@ -147,7 +147,7 @@ body:not(.loading) #team_menu:hover {
   color: #717274 !important;
 }
 .c-message__body {
-  font-family: "SFMono-Regular", Menlo, Consolas, Inconsolata, Monaco, monospace, !important;
+  font-family: "SFMono-Regular", Menlo, Consolas, Inconsolata, Monaco, monospace !important;
   font-size: 14px;
 }
 .c-virtual_list__scroll_container .c-message__body {
