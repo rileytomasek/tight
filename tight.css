@@ -11,13 +11,13 @@
 /* Make team menu styles match rest of sidebar */
 #team_menu #team_name {
   font-size: 16px !important;
-  color: rgb(114, 119, 123) !important;
+  color: #5f6368 !important;
 }
 
 /* Fix alignment with channel name in right pane */
 /* Slack is so bad they have imporant on their own selectors... */
 .client_container #team_menu .team_name_container {
-  margin-top: 23px !important;
+  margin-top: 32px !important;
 }
 
 /* All threads */
@@ -33,8 +33,8 @@
 /* Force sidebar color, regardless of theme color */
 .client_channels_list_container,
 .p-channel_sidebar {
-  background: #f8f8fa !important;
-  color: rgb(114, 119, 123) !important;
+  background: #f1f3f4 !important;
+  color: #5f6368 !important;
 }
 
 /* Single channel hover effect */
@@ -53,7 +53,7 @@
 .p-channel_sidebar__link:visited,
 .p-channel_sidebar__channel:hover,
 .p-channel_sidebar__link:hover {
-  color: rgb(114, 119, 123) !important;
+  color: #5f6368 !important;
 }
 
 /* Team menu */
@@ -62,8 +62,8 @@
 }
 body:not(.loading) #team_menu.active,
 body:not(.loading) #team_menu:hover {
-  background: #f8f8fa !important;
-  border-bottom-color: #f8f8fa !important;
+  background: #f1f3f4 !important;
+  border-bottom-color: #f1f3f4 !important;
 }
 
 /* Selected channel state */
@@ -91,7 +91,7 @@ body:not(.loading) #team_menu:hover {
 .p-channel_sidebar__section_heading_label--clickable:hover,
 .p-channel_sidebar__section_heading_label--unreads,
 .p-channel_sidebar__quickswitcher:hover {
-  color: rgb(114, 119, 123) !important;
+  color: #5f6368 !important;
 }
 
 /* Message composition box */
@@ -117,6 +117,10 @@ body:not(.loading) #team_menu:hover {
   display: flex;
   align-items: center;
 }
+#im_title,
+#channel_title {
+  color: #5f6368 !important;
+}
 
 /* Search box */
 .flex_header {
@@ -130,7 +134,7 @@ body:not(.loading) #team_menu:hover {
   color: #717274 !important;
 }
 .ql-placeholder {
-  color: #e8e8e8 !important;
+  color: #dad9da !important;
   opacity: 1 !important;
 }
 .search_clear_icon_wrapper {
@@ -139,9 +143,13 @@ body:not(.loading) #team_menu:hover {
 
 /* Message thread */
 .c-message_list__day_divider__label__pill {
-  color: #e8e8e8 !important;
+  color: #dad9da !important;
   font-size: 12px !important;
   text-transform: lowercase;
+}
+/* Remove arbitrary 1px padding that breaks left alignment */
+.p-message_pane {
+  padding-left: 0 !important;
 }
 .c-timestamp__label {
   color: #717274 !important;
@@ -160,6 +168,23 @@ body:not(.loading) #team_menu:hover {
   display: none;
 }
 
+/* Change color of sticky date hr */
+.c-message_list__day_divider__line {
+  border-top-color: #dad9da !important;
+}
+/* This is the sticky hr at the top of the messages column */
+.p-message_pane
+  .c-message_list.c-virtual_list--scrollbar
+  > .c-scrollbar__hider:before,
+.p-message_pane .c-message_list:not(.c-virtual_list--scrollbar):before {
+  box-shadow: 0 1px 0 #dad9da !important;
+}
+
+/* Change message sender to chrome grey */
+.c-message__sender a {
+  color: #5f6368 !important;
+}
+
 body {
   min-width: 1200px;
 }
@@ -172,9 +197,12 @@ body {
 }
 .client_main_container {
   width: 800px;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 10px 0;
 }
 body {
-  background: #f8f8fa !important;
+  background: #f1f3f4 !important;
 }
 #col_messages,
 #footer,
@@ -196,7 +224,7 @@ body {
 }
 #footer {
   padding: 10px 0 !important;
-  border-top: 1px solid #e8e8e8 !important;
+  border-top: 1px solid #dad9da !important;
   background-color: #fff !important;
 }
 
