@@ -11,7 +11,7 @@
 /* Make team menu styles match rest of sidebar */
 #team_menu #team_name {
   font-size: 16px !important;
-  color: rgb(114, 119, 123) !important;
+  color: #72777b !important;
 }
 
 /* Fix alignment with channel name in right pane */
@@ -34,7 +34,7 @@
 .client_channels_list_container,
 .p-channel_sidebar {
   background: #f8f8fa !important;
-  color: rgb(114, 119, 123) !important;
+  color: #72777b !important;
 }
 
 /* Single channel hover effect */
@@ -53,7 +53,7 @@
 .p-channel_sidebar__link:visited,
 .p-channel_sidebar__channel:hover,
 .p-channel_sidebar__link:hover {
-  color: rgb(114, 119, 123) !important;
+  color: #72777b !important;
 }
 
 /* Team menu */
@@ -91,7 +91,7 @@ body:not(.loading) #team_menu:hover {
 .p-channel_sidebar__section_heading_label--clickable:hover,
 .p-channel_sidebar__section_heading_label--unreads,
 .p-channel_sidebar__quickswitcher:hover {
-  color: rgb(114, 119, 123) !important;
+  color: #72777b !important;
 }
 
 /* Message composition box */
