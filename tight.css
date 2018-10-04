@@ -259,3 +259,7 @@ body.loading::before {
 .p-channel_sidebar__static_list > div[role="presentation"]:first-child {
   height: 0 !important;
 }
+
+.p-channel_sidebar__jumper {
+  margin: 12px 0 12px 14px !important;
+}
