@@ -31,7 +31,7 @@
 }
 
 /* Force sidebar color, regardless of theme color */
-.client_channels_list_container,
+.client_container .client_channels_list_container,
 .p-channel_sidebar {
   background: #f1f3f4 !important;
   color: #5f6368 !important;
