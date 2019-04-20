@@ -122,6 +122,11 @@ body:not(.loading) #team_menu:hover {
   color: #5f6368 !important;
 }
 
+/* Help icon that is displayed at the top beside search */
+#help_toggle {
+  display: none !important;
+}
+
 /* Search box */
 .flex_header {
   width: 46px !important;
