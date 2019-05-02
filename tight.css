@@ -68,10 +68,11 @@ body:not(.loading) #team_menu:hover {
 
 /* Selected channel state */
 .p-channel_sidebar__channel--selected {
-  background-color: transparent !important;
+  background-color: #D4D6D8 !important;
   color: inherit !important;
   font-weight: bold !important;
 }
+
 .p-channel_sidebar__close_container .c-icon--presence-online,
 .p-channel_sidebar__close_container .c-icon--presence-external-online {
   color: #60d156 !important;
