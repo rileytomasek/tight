@@ -1,7 +1,8 @@
 # <img src="assets/icon-48.png" width="48" align="left"> Tight
 
-> A browser extension that simplifies the Slack interface, making it
-> easier to focus.
+Tight is a browser extension that simplifies the Slack interface, making it easier to focus.
+
+![Tight Chrome extension for Slack](assets/tight-screenshots.gif)
 
 Like many people, I am forced to use Slack on a daily basis. I noticed
 a lot of opportunities for simple improvements in the interface, so I have
@@ -20,13 +21,11 @@ please let Slack know!
 
 Read the [blog post](https://rile.yt/tight-making-slack-usable) or discuss on [Hacker News](https://news.ycombinator.com/item?id=17877737) / [Product Hunt](https://www.producthunt.com/posts/tight)
 
-![Tight Chrome extension for Slack](assets/tight-screenshots.gif)
-
 ## Setup
 
 1. Install the [Tight Chrome
    extension](https://chrome.google.com/webstore/detail/bcepjjjdnkimgfmchbjlglhgbcelfoaa)
-2. Login to [slack.com](https://slack.com/signin)
+2. Login to [slack.com](https://slack.com/signin) or refresh Slack tab
 3. Enjoy!
 
 ## Contribute
