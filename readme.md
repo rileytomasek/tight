@@ -20,7 +20,7 @@ please let Slack know!
 
 Read the [blog post](https://rile.yt/tight-making-slack-usable) or discuss on [Hacker News](https://news.ycombinator.com/item?id=17877737) / [Product Hunt](https://www.producthunt.com/posts/tight)
 
-![Tight Comparison](assets/comparison.jpg)
+![Tight Chrome extension for Slack](assets/tight-screenshots.gif)
 
 ## Setup
 
