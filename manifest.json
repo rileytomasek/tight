@@ -1,6 +1,6 @@
 {
-  "name": "Tight",
   "version": "1.2.0",
+  "name": "Tight — Simplified Slack",
   "manifest_version": 2,
   "description": "A browser extension that simplifies the Slack interface, making it easier to focus.",
   "icons": {
