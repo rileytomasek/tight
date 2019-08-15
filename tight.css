@@ -139,6 +139,8 @@ body,
   padding-left: 64px !important;
   padding-top: 20px !important;
   padding-bottom: 20px !important;
+  border-top: 1px solid rgba(0, 0, 0, 0.1) !important;
+  border-radius: 0 !important;
 }
 .p-workspace__input .p-message_input_field .ql-editor {
   padding-top: 0 !important;
