@@ -89,6 +89,10 @@ body,
 .p-client {
   background: #f8f8fa !important;
 }
+body.sk-client-theme--dark,
+.sk-client-theme--dark .p-client {
+  background: #333 !important;
+}
 
 /*
  * Message column styles
@@ -100,6 +104,15 @@ body,
 .p-classic_nav__right_header,
 .p-workspace__primary_view_footer {
   background: #fff !important;
+}
+.sk-client-theme--dark .p-classic_nav__channel_header,
+.sk-client-theme--dark .p-classic_nav__right_header,
+.sk-client-theme--dark .p-workspace__primary_view_footer,
+.sk-client-theme--dark .p-message_input_field {
+  background: #1b1d21 !important;
+}
+.sk-client-theme--dark .p-message_input_field {
+  border-top: 1px solid rgb(53, 55, 59) !important;
 }
 .p-workspace {
   margin-top: 20px !important;
