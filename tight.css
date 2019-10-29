@@ -165,6 +165,12 @@ body.sk-client-theme--dark,
 .p-notification_bar {
   display: none !important;
 }
+.p-message_pane_input {
+  padding: 0 !important;
+}
+.p-message_input_field .ql-editor {
+  margin-top: 0 !important;
+}
 
 /* Sidebar */
 /* Thread hover states */
@@ -199,5 +205,11 @@ body.sk-client-theme--dark,
   border: none !important;
 }
 .p-classic_nav__right__search__placeholder {
+  display: none !important;
+}
+.p-channel_sidebar__link--invites {
+  display: none !important;
+}
+.p-channel_sidebar__link--add-apps {
   display: none !important;
 }
