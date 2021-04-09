@@ -1,5 +1,11 @@
 # <img src="assets/icon-48.png" width="48" align="left"> Tight
 
+```
+This is no longer maintained. Slack updates broke it and I'm lucky enough to not use Slack anymore.
+```
+
+---
+
 Tight is a browser extension that simplifies the Slack interface, making it easier to focus.
 
 ![Tight Chrome extension for Slack](assets/tight-screenshots.gif)
